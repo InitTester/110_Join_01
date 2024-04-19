@@ -32,8 +32,7 @@ public class LoginController {
 	@Autowired
 	private JoinService joinservice;
 	
-	// 회원가입 화면에서 전송된(input) 데이터를 가지고 처리 및 화면출력(output) 전송
-	   
+	// 회원가입 화면에서 전송된(input) 데이터를 가지고 처리 및 화면출력(output) 전송	   
 	@RequestMapping("/join.do")
 	public ModelAndView join(@RequestParam HashMap<String,String> params) {
 		

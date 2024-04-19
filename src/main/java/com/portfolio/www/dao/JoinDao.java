@@ -45,7 +45,6 @@ public class JoinDao extends JdbcTemplate {
 			public int update(String sql, @Nullable Object... args) throws DataAccessException {
 				return update(sql, newArgPreparedStatementSetter(args));
 			}
-			
 			해당 메서드의 사용으로 성능과 보안을 좀더 신경썼다
 		 * */
 		return update(sql, memberId, passwd, email);

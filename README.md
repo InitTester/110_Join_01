@@ -1,8 +1,9 @@
 # 회원가입 실습 1
 
 ## 실습 예정
-- 1차 : springMVC, JDBC 구현
-- 2차 : springMVC, Mybatis 구현
+
+- [x] 1차 : springMVC, JDBC 구현
+- [ ] 2차 : springMVC, Mybatis 구현
 
 ## 요구사항
 - 프로젝트 환경 설정하기
